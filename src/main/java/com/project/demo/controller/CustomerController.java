@@ -12,6 +12,7 @@ import java.util.Optional;
 @RequestMapping(path = {"/v1/customers", "/v1/customers/"})
 public class CustomerController {
 
+    //test
     public static final List<String> NAMES = List.of("William", "Brenon", "Wildnei", "Fabricio");
 
     @GetMapping
